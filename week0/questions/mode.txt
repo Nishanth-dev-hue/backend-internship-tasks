@@ -1,0 +1,23 @@
+Grouped Data Mode Calculation (Without Using Variables)
+
+Objective:
+Write a Python program to calculate the mode of grouped data
+without storing values in separate variables.
+
+Problem Statement:
+Given a grouped frequency distribution, the program should:
+- Identify the modal class
+- Apply the mode formula for grouped data
+- Compute the final mode value directly using expressions
+
+Constraints:
+- Do not store formula components in separate variables
+- Perform calculation directly inside the formula
+
+Expected Outcome:
+The program should display the calculated mode correctly.
+
+Learning Focus:
+- Mathematical logic implementation
+- Expression-based calculation
+- Python arithmetic operations
