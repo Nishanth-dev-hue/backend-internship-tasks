@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+<h3>Expenses – {{ bank }}</h3>
+
+<div class="toolbar">
+    <a href="/dashboard/{{ bank }}" class="btn secondary-btn">
+        Back to Dashboard
+    </a>
+
+    <a href="/add-expense/{{ bank }}" class="btn">
+        Add Expense
+    </a>
+</div>
+{% if expenses %}
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+
+    {% for id, exp in expenses.items() %}
+        {% if not exp.is_delete %}
+        <tr>
+            <td>{{ id }}</td>
+            <td>{{ exp.NAME }}</td>
+            <td>{{ exp.AMOUNT }}</td>
+
+            <td>
+                <a href="/update-expense/{{ bank }}/{{ id }}" class="update-link">
+                    Update
+                </a>
+            </td>
+
+            <td>
+                <a href="/delete-expense/{{ bank }}/{{ id }}" class="delete-link">
+                    Delete
+                </a>
+            </td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+
+{% else %}
+<p>No expenses found.</p>
+{% endif %}
+
+</div>
+
+{% endblock %}

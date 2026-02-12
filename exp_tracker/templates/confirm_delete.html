@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+
+<h3>Delete {{ type }}</h3>
+
+{% if item %}
+<p><strong>Name:</strong> {{ item.NAME }}</p>
+<p><strong>Amount:</strong> {{ item.AMOUNT }}</p>
+{% else %}
+<p><strong>Bank:</strong> {{ bank }}</p>
+<p style="color:red">All salary and expense data will be removed.</p>
+{% endif %}
+
+{% if error %}
+<p style="color:red">{{ error }}</p>
+{% else %}
+<p style="color:red">Are you sure you want to delete?</p>
+{% endif %}
+
+<form method="post">
+    <button type="submit" class="danger-btn">Delete</button>
+    <a href="{{ back_url }}" class="btn secondary-btn">Cancel</a>
+</form>
+
+</div>
+
+{% endblock %}

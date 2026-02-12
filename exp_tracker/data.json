@@ -1,0 +1,98 @@
+{
+    "banks": {
+        "SBI_BANK": {},
+        "CANARA_BANK": {
+            "SALARY": {
+                "SAL1769413844": {
+                    "NAME": "shopping",
+                    "AMOUNT": 10000,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 13:20:44.577389",
+                    "updated_at": "2026-01-26 17:12:21.336848"
+                },
+                "SAL1769426258": {
+                    "NAME": "Bonus",
+                    "AMOUNT": 10000,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 16:47:38.839206",
+                    "updated_at": "2026-01-26 16:48:04.603865"
+                },
+                "SAL1769427694": {
+                    "NAME": "PF",
+                    "AMOUNT": 100000,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 17:11:34.671696",
+                    "updated_at": "2026-01-26 17:11:34.671705"
+                }
+            },
+            "EXPENSES": {
+                "EXP1769426298": {
+                    "NAME": "bills",
+                    "AMOUNT": 550,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 16:48:18.504636",
+                    "updated_at": "2026-01-26 16:48:43.703085"
+                },
+                "EXP1769426310": {
+                    "NAME": "iphone 15pro",
+                    "AMOUNT": 3000,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 16:48:30.940029",
+                    "updated_at": "2026-01-27 16:57:59.025605"
+                },
+                "EXP1769513272": {
+                    "NAME": "shopping",
+                    "AMOUNT": 12000,
+                    "is_delete": true,
+                    "created_at": "2026-01-27 16:57:52.657319",
+                    "updated_at": "2026-01-27 16:58:02.320961"
+                }
+            }
+        },
+        "HDFC_BANK": {
+            "EXPENSES": {
+                "EXP1769485155": {
+                    "NAME": "iphone 15pro",
+                    "AMOUNT": 1000,
+                    "is_delete": false,
+                    "created_at": "2026-01-27 09:09:15.745290",
+                    "updated_at": "2026-01-27 09:09:40.875610"
+                },
+                "EXP1769513373": {
+                    "NAME": "shopping",
+                    "AMOUNT": 2000,
+                    "is_delete": false,
+                    "created_at": "2026-01-27 16:59:33.223045",
+                    "updated_at": "2026-01-27 16:59:33.223054"
+                }
+            },
+            "SALARY": {
+                "SAL1769429687": {
+                    "NAME": "Bonus",
+                    "AMOUNT": 12000,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 17:44:47.430212",
+                    "updated_at": "2026-01-26 17:45:03.247789"
+                },
+                "SAL1769429699": {
+                    "NAME": "PF",
+                    "AMOUNT": 100000,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 17:44:59.652496",
+                    "updated_at": "2026-01-26 17:44:59.652505"
+                },
+                "SAL1769485219": {
+                    "NAME": "bonus",
+                    "AMOUNT": 13000,
+                    "is_delete": false,
+                    "created_at": "2026-01-27 09:10:19.435818",
+                    "updated_at": "2026-01-27 09:10:19.435830"
+                }
+            }
+        },
+        "ICCCI_BANK": {
+            "EXPENSES": {},
+            "SALARY": {}
+        }
+    }
+}

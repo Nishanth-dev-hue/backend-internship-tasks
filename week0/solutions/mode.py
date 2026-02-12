@@ -4,7 +4,7 @@ data = {
 }
 for i in range(1, len(data["frequencies"]) - 1):
     if data["frequencies"][i] > data["frequencies"][i-1] and data["frequencies"][i] > data["frequencies"][i+1]:
-        print(
+        print("Mode :",
             int(data["class_intervals"][i].split("-")[0])
             +
             (
@@ -23,4 +23,3 @@ for i in range(1, len(data["frequencies"]) - 1):
             )
         )
         break
-print(data)

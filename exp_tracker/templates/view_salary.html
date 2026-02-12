@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Salaries</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<h3>Salary – {{ bank }}</h3>
+<br>
+<div class="toolbar">
+
+    <a href="/dashboard/{{ bank }}" class="btn secondary-btn">
+        Back to Dashboard
+    </a>
+
+    <a href="/add-salary/{{ bank }}" class="btn">
+        Add Salary
+    </a>
+
+</div>
+
+{% if salary %}
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Created</th>
+        <th>Updated</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+    {% for id, sal in salary.items() %}
+        {% if not sal.is_delete %}
+        <tr>
+            <td>{{ id }}</td>
+            <td>{{ sal.NAME }}</td>
+            <td>{{ sal.AMOUNT }}</td>
+            <td>{{ sal.created_at.split(" ")[0] }}</td>
+            <td>{{ sal.updated_at.split(" ")[0] }}</td>
+
+            <td>
+                <a href="/delete-salary/{{ bank }}/{{ id }}" class="delete-link">
+                    Delete
+                </a>
+            </td>
+
+            <td>
+                <a href="/update-salary/{{ bank }}/{{ id }}" class="update-link">
+                    Update
+                </a>
+            </td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+
+{% else %}
+<p>No salary records found.</p>
+{% endif %}
+
+<br>
+
+</div>
+
+{% endblock %}

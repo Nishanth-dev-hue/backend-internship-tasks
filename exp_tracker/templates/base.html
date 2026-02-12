@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+     {%block head%}
+     {% endblock%}
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-left">
+      <a href="/" class="logo-text">
+        Expense Tracker</a>
+    </div>
+    <div class="nav-right">
+        <button class="switch-bank">
+        <a href="/select-bank">Switch-Bank</a></button>
+    </div>
+</div>
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="flash-area">
+      {% for category, msg in messages %}
+        <div class="flash {{ category }}">
+          {{ msg }}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

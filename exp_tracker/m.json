@@ -1,0 +1,284 @@
+{
+    "banks": {
+        "SBI_BANK": {
+            "BALANCE": 40034,
+            "EXPENSES": {
+                "EXP1": {
+                    "NAME": "loan",
+                    "AMOUNT": 9000,
+                    "is_delete": true,
+                    "created_at": "2025-09-09 17:52:33.238795",
+                    "updated_at": "2025-09-26 14:01:09.699393"
+                },
+                "EXP2": {
+                    "NAME": "grocery",
+                    "AMOUNT": 8000,
+                    "is_delete": false,
+                    "created_at": "2025-09-09 17:52:52.348883",
+                    "updated_at": "2025-09-11 12:28:14.529360"
+                },
+                "EXP3": {
+                    "NAME": "hjhkm",
+                    "AMOUNT": 7678,
+                    "is_delete": true,
+                    "created_at": "2025-09-26 20:27:30.482577",
+                    "updated_at": "2025-09-28 16:20:13.877600"
+                },
+                "EXP4": {
+                    "NAME": "bike repair",
+                    "AMOUNT": 7678,
+                    "is_delete": false,
+                    "created_at": "2025-09-26 20:28:32.842752",
+                    "updated_at": "2025-09-28 16:20:05.762610"
+                },
+                "EXP5": {
+                    "NAME": "power",
+                    "AMOUNT": 12000,
+                    "is_delete": false,
+                    "created_at": "now",
+                    "updated_at": "now"
+                },
+                "EXP6": {
+                    "NAME": "power",
+                    "AMOUNT": 12000,
+                    "is_delete": true,
+                    "created_at": "now",
+                    "updated_at": "2026-01-26 10:05:33.698076"
+                },
+                "EXP7": {
+                    "NAME": "power",
+                    "AMOUNT": 12000,
+                    "is_delete": false,
+                    "created_at": "now",
+                    "updated_at": "now"
+                },
+                "EXP8": {
+                    "NAME": "iphone 15pro",
+                    "AMOUNT": 1200,
+                    "is_delete": true,
+                    "created_at": "now",
+                    "updated_at": "2026-01-23 14:11:42.250710"
+                }
+            },
+            "SALARY": {
+                "SAL1": {
+                    "NAME": "monthly salary",
+                    "AMOUNT": 40000,
+                    "is_delete": false,
+                    "created_at": "2025-09-09 17:52:33.238818",
+                    "updated_at": "2025-09-29 14:53:05.828645"
+                },
+                "SAL2": {
+                    "NAME": "bonus",
+                    "AMOUNT": 10000,
+                    "is_delete": false,
+                    "created_at": "2025-09-29 14:53:59.674941",
+                    "updated_at": "2025-09-29 14:54:53.480969"
+                },
+                "SAL3": {
+                    "NAME": "2bhk-rental",
+                    "AMOUNT": 10000,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 10:05:55.348790",
+                    "updated_at": "2026-01-26 10:05:55.348809"
+                }
+            }
+        },
+        "UNION_BANK": {
+            "BALANCE": 1420346,
+            "EXPENSES": {
+                "EXP1": {
+                    "NAME": "shopping",
+                    "AMOUNT": 3000,
+                    "is_delete": true,
+                    "created_at": "2025-09-09 17:52:33.238821",
+                    "updated_at": "2025-09-26 17:15:34.075144"
+                },
+                "EXP2": {
+                    "NAME": "rent",
+                    "AMOUNT": 6000,
+                    "is_delete": true,
+                    "created_at": "2025-09-10 12:27:09.386941",
+                    "updated_at": "2025-09-26 11:15:25.797706"
+                },
+                "EXP3": {
+                    "NAME": "rent",
+                    "AMOUNT": 3000,
+                    "is_delete": true,
+                    "created_at": "2025-09-25 17:53:09.006861",
+                    "updated_at": "2025-09-26 18:26:09.169088"
+                },
+                "EXP4": {
+                    "NAME": "ramesh",
+                    "AMOUNT": 4000,
+                    "is_delete": true,
+                    "created_at": "2025-09-26 18:50:47.582217",
+                    "updated_at": "2025-09-29 10:39:54.239696"
+                },
+                "EXP5": {
+                    "NAME": "shopping",
+                    "AMOUNT": 50000,
+                    "is_delete": true,
+                    "created_at": "2025-09-26 18:53:12.102909",
+                    "updated_at": "2026-01-23 10:02:16.643790"
+                },
+                "EXP6": {
+                    "NAME": "fbgg",
+                    "AMOUNT": 34,
+                    "is_delete": true,
+                    "created_at": "2025-09-26 20:42:45.122568",
+                    "updated_at": "2025-09-26 20:49:57.640165"
+                },
+                "EXP7": {
+                    "NAME": "chocolates",
+                    "AMOUNT": 700,
+                    "is_delete": true,
+                    "created_at": "2025-09-28 15:36:45.190811",
+                    "updated_at": "2026-01-23 10:02:44.103892"
+                },
+                "EXP8": {
+                    "NAME": "grocery",
+                    "AMOUNT": 5000,
+                    "is_delete": true,
+                    "created_at": "2025-09-29 10:40:36.766397",
+                    "updated_at": "2026-01-23 10:11:31.678608"
+                },
+                "EXP9": {
+                    "NAME": "shopping",
+                    "AMOUNT": 45000,
+                    "is_delete": true,
+                    "created_at": "2025-09-29 17:43:54.730029",
+                    "updated_at": "2026-01-26 09:56:41.382553"
+                },
+                "EXP10": {
+                    "NAME": "Nishanth",
+                    "AMOUNT": 33456,
+                    "is_delete": false,
+                    "created_at": "now",
+                    "updated_at": "now"
+                }
+            },
+            "SALARY": {
+                "SAL1": {
+                    "NAME": "monthly salary",
+                    "AMOUNT": 50000,
+                    "is_delete": true,
+                    "created_at": "2025-09-09 17:52:33.238823",
+                    "updated_at": "2026-01-26 09:55:22.099748"
+                },
+                "SAL2": {
+                    "NAME": "monthly salary",
+                    "AMOUNT": 50000,
+                    "is_delete": false,
+                    "created_at": "2025-09-29 17:41:02.657085",
+                    "updated_at": "2025-09-29 17:41:02.657100"
+                },
+                "SAL3": {
+                    "NAME": "PF",
+                    "AMOUNT": 200000,
+                    "is_delete": false,
+                    "created_at": "2025-09-29 21:20:19.863100",
+                    "updated_at": "2025-09-29 21:20:19.864283"
+                },
+                "SAL4": {
+                    "NAME": "PF",
+                    "AMOUNT": 12000,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 09:42:03.967788",
+                    "updated_at": "2026-01-26 09:44:06.864690"
+                },
+                "SAL5": {
+                    "NAME": "incre",
+                    "AMOUNT": 12000,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 09:50:51.198393",
+                    "updated_at": "2026-01-26 09:52:09.298842"
+                },
+                "SAL6": {
+                    "NAME": "monthly bis",
+                    "AMOUNT": 1290,
+                    "is_delete": true,
+                    "created_at": "2026-01-26 09:53:59.581101",
+                    "updated_at": "2026-01-26 09:54:03.665506"
+                }
+            }
+        },
+        "CANARA_BANK": {
+            "BALANCE": 15149,
+            "EXPENSES": {
+                "EXP1": {
+                    "NAME": "grocery shopping",
+                    "AMOUNT": 40000,
+                    "is_delete": true,
+                    "created_at": "2025-09-09 17:52:33.238826",
+                    "updated_at": "2026-01-26 10:24:39.363536"
+                },
+                "EXP2": {
+                    "NAME": "hgjjh",
+                    "AMOUNT": 300,
+                    "is_delete": true,
+                    "created_at": "2025-09-28 17:59:47.711197",
+                    "updated_at": "2026-01-26 10:29:06.730328"
+                },
+                "EXP3": {
+                    "NAME": "chocolate",
+                    "AMOUNT": 7,
+                    "is_delete": true,
+                    "created_at": "2025-09-28 18:26:14.167117",
+                    "updated_at": "2026-01-26 10:22:14.829207"
+                },
+                "EXP4": {
+                    "NAME": "niah",
+                    "AMOUNT": 12670,
+                    "is_delete": false,
+                    "updated_at": "2026-01-26 10:22:27.527358"
+                },
+                "EXP1769403174": {
+                    "NAME": "shopping",
+                    "AMOUNT": 2500,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 10:22:54.381194",
+                    "updated_at": "2026-01-26 10:29:02.917213"
+                },
+                "EXP1769403196": {
+                    "NAME": "iphone 18pro",
+                    "AMOUNT": 800,
+                    "is_delete": false,
+                    "created_at": "2026-01-26 10:23:16.728312",
+                    "updated_at": "2026-01-26 10:23:16.728318"
+                }
+            },
+            "SALARY": {
+                "SAL1": {
+                    "NAME": "monthly salary",
+                    "AMOUNT": 5000,
+                    "is_delete": false,
+                    "created_at": "2025-09-09 17:52:33.238830",
+                    "updated_at": "2026-01-26 10:23:41.063804"
+                },
+                "SAL2": {
+                    "Name": "ghh",
+                    "Amount": 3456,
+                    "is_delete": true,
+                    "created_at": "2025-09-28 18:20:24.698370",
+                    "updated_at": "2025-09-28 18:24:45.274372"
+                },
+                "SAL3": {
+                    "Name": "bonus",
+                    "AMOUNT": 5000,
+                    "is_delete": true,
+                    "created_at": "2025-09-28 18:22:24.269550",
+                    "updated_at": "2026-01-26 10:24:49.982288",
+                    "NAME": "bonus"
+                },
+                "SAL4": {
+                    "NAME": "OT",
+                    "AMOUNT": 30000,
+                    "is_delete": false,
+                    "created_at": "2025-09-28 18:23:51.804001",
+                    "updated_at": "2026-01-26 10:24:18.916921"
+                }
+            }
+        }
+    }
+}

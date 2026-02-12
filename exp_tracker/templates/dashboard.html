@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+<h3>Bank Dashboard</h3>
+
+<div class="info-box">
+    <p><strong>Selected Bank:</strong> {{ bank }}</p>
+    <p><strong>Balance:</strong> {{ balance }}</p>
+</div>
+
+{% if balance <= 0 %}
+<div class="warning-box">
+    Warning: Balance is zero or negative. Add or update salary to continue.
+</div>
+{% endif %}
+
+<div class="action-grid">
+
+    <a href="/view-expenses/{{ bank }}" class="btn">
+        View Expenses
+    </a>
+
+    {% if balance > 0 %}
+        <a href="/add-expense/{{ bank }}" class="btn">
+            Add Expense
+        </a>
+    {% else %}
+        <span class="btn disabled-btn">
+            Add Expense
+        </span>
+    {% endif %}
+
+    <a href="/view-salary/{{ bank }}" class="btn">
+        View Salary
+    </a>
+
+    <a href="{{ url_for('welcome') }}" class="btn secondary-btn">
+       HOME
+    </a>
+
+</div>
+
+</div>
+
+{% endblock %}

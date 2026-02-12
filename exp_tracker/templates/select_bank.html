@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="tobar">
+   <div class="header-row">
+    <h3>Select Bank Account</h3>
+
+    <a href="/add-bank" class="btn">
+        + Add Bank
+    </a>
+</div>
+</div>
+
+<form method="post" class="bank-form">
+
+    {% for bank in banks %}
+    <div class="bank-card">
+
+        <label class="bank-label">
+            <input type="radio" name="bank" value="{{ bank }}" required>
+            <span>{{ bank }}</span>
+        </label>
+
+        <a href="/delete-bank/{{ bank }}" class="delete-btn">
+            Delete
+        </a>
+
+    </div>
+    {% endfor %}
+
+
+
+
+    <button type="submit" class="btn full-btn">
+        Continue
+    </button>
+    <a href="{{ url_for('welcome') }}" class="btn secondary-btn">
+       HOME
+    </a>
+
+</form>
+
+</div>
+
+{% endblock %}

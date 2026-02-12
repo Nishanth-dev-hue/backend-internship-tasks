@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="hero">
+    <h1>Expense Tracker</h1>
+    <p>Track your income and expenses smartly in one place.</p>
+
+    <a href="/select-bank" class="btn big-btn">
+        Get Started
+    </a>
+</div>
+
+<div class="features">
+
+    <div class="feature-card">
+        <h3>Salary Tracking</h3>
+        <p>Add and manage all your income sources.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Expense Tracking</h3>
+        <p>Record where your money is going.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Live Balance</h3>
+        <p>Always see your current balance.</p>
+    </div>
+
+</div>
+
+<div class="cta">
+    <h2>Start managing your finances today</h2>
+    <a href="/select-bank" class="btn">
+        Select Bank
+    </a>
+</div>
+
+{% endblock %}
